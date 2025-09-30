@@ -5,8 +5,8 @@ from PIL import Image
 import pandas as pd
 import altair as alt
 
-from ui.processor import preprocess
-from ui.predictor import load_model, predict
+from processor import preprocess
+from predictor import load_model, predict
 
 st.set_page_config(page_title="Digit Demo", page_icon="🔢", layout="centered")
 st.title("🖌️ Draw a digit (0–9)")
